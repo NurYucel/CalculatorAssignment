@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/hesapFragment">
+
+    <fragment
+        android:id="@+id/hesapFragment"
+        android:name="com.example.calculatorassignment.HesapFragment"
+        android:label="fragment_hesap"
+        tools:layout="@layout/fragment_hesap" />
+</navigation>
